@@ -1,6 +1,6 @@
 // Troque BASE_URL pelo domínio final depois do deploy (sem barra no fim).
 // Ela gera canonical e og:image em URL absoluta em todas as páginas.
-export const BASE_URL = 'https://anderson-zanelatto.vercel.app';
+export const BASE_URL = 'https://imobiliarias-omega.vercel.app';
 
 // Rascunho: deixe false para os buscadores não indexarem antes da aprovação.
 export const INDEXAR = false;
