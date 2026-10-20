@@ -1,0 +1,21 @@
+{
+  "name": "anderson-zanelatto-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check:mobile": "node scripts/check-mobile.mjs",
+    "demo": "node scripts/record-demo.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.48.2"
+  }
+}
